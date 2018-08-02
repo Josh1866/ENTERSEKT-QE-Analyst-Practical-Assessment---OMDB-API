@@ -21,3 +21,16 @@ See file on repository: [Imdb Api testcases - Sheet1.pdf](https://github.com/Jos
 See file on repository: [API.postman_collection.json](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/API.postman_collection.json),
 
 5.1. See images: [Test Results](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/Test%20Results.PNG),[Testrun](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/Testrun.PNG)
+<br><br>
+
+Theoretical Exercise
+---
+**1. Briefly explain the difference between a test case and a user story.<br>
+
+User Story:<br>
+
+User stories are often written on small cards and supposed to be brief statements of desired functionality that can be later fleshed out to obtain functional requirements for developers to code to.<br>
+
+Test scenario:<br>
+
+Any functionality that can be tested.<br>
