@@ -7,11 +7,11 @@ Practical Exercise<br>
 
 To run, Install the Python Requests library: ***pip install requests***
 
-3.1. See file on repository: [IMDB_GETID.py](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/IMDB_GETID.py).
+3.1. See file on repository: [IMDB_GETID.py](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/IMDB_GETID.py)
 
-3.2. See images under folder ..
+3.2. See images:[GETREQUEST](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/GETREQUEST),[GETResponse.JPG](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/GETResponse.JPG),[Test Results](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/Test%20Results.PNG),[Testrun](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/Testrun.PNG)
 
-See file on repository: 
+See file on repository: [Imdb Api testcases - Sheet1.pdf](https://github.com/Josh1866/ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/Imdb%20Api%20testcases%20-%20Sheet1.pdf)
 
 See file on repository: 
 
