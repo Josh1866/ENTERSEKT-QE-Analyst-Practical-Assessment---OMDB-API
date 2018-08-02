@@ -27,7 +27,7 @@ Theoretical Exercise
 ---
 **1. Briefly explain the difference between a test case and a user story.**<br>
 
-**User Story:<br>
+**User Story:**<br>
 
 User stories are often written on small cards and supposed to be brief statements of desired functionality that can be later fleshed out to obtain functional requirements for developers to code or work on to get reach the desire goal for the end product.<br>
 
