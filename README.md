@@ -7,7 +7,7 @@ Practical Exercise<br>
 
 To run, Install the Python Requests library: ***pip install requests***
 
-3.1. See file on repository: [[ENTERSEKT-QE-Analyst-Practical-Assessment---OMDB-API/blob/master/IMDB_GETID.py|MDB_GETID.py]]
+3.1. See file on repository: 
 
 3.2. See images under folder ..
 
