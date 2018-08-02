@@ -1,0 +1,194 @@
+{
+	"id": "30004377-bb04-48b7-bfef-ee626d88951b",
+	"name": "API",
+	"allTests": [],
+	"timestamp": "2018-08-02T07:38:55.108Z",
+	"collection_id": "40acedba-e415-4d90-96cf-ee46303caa0b",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "40acedba-e415-4d90-96cf-ee46303caa0b",
+		"name": "API",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"1b3690e4-02cb-48da-8056-8c89f2006187",
+			"edca7c23-4bf8-44e6-8292-aba71b3b4169"
+		],
+		"folders_order": [],
+		"owner": "4982685",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://www.omdbapi.com/?i=tt3501632&apikey=a795a8a",
+			"id": "1b3690e4-02cb-48da-8056-8c89f2006187",
+			"url": "http://www.omdbapi.com/?i=tt3501632&apikey=a795a8a",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Some test name",
+				"status": "fail"
+			},
+			"testPassFailCounts": {
+				"Some test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"1096"
+			],
+			"allTests": [
+				{
+					"Some test name": false
+				}
+			],
+			"time": "1096",
+			"totalRequestTime": "1096",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://www.omdbapi.com/?start=2018/08/01&i=tt3501632&apikey=a795a8a",
+			"id": "edca7c23-4bf8-44e6-8292-aba71b3b4169",
+			"url": "http://www.omdbapi.com/?start=2018/08/01&i=tt3501632&apikey=a795a8a",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"name": "Response time is less than 200ms",
+				"status": "pass",
+				"Status code is 200": true,
+				"Successful POST request": false,
+				"Body matches string": true,
+				"Body is correct": false
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"35"
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 200": true,
+					"Successful POST request": false,
+					"Body matches string": true,
+					"Body is correct": false
+				}
+			],
+			"time": "35",
+			"totalRequestTime": "35",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 3,
+	"totalFail": 4,
+	"totalTime": 1131,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://www.omdbapi.com/?i=tt3501632&apikey=a795a8a",
+			"id": "1b3690e4-02cb-48da-8056-8c89f2006187",
+			"url": "http://www.omdbapi.com/?i=tt3501632&apikey=a795a8a",
+			"time": "2018-08-02T07:38:55.108Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Some test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "http://www.omdbapi.com/?start=2018/08/01&i=tt3501632&apikey=a795a8a",
+			"id": "edca7c23-4bf8-44e6-8292-aba71b3b4169",
+			"url": "http://www.omdbapi.com/?start=2018/08/01&i=tt3501632&apikey=a795a8a",
+			"time": "2018-08-02T07:38:55.108Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		}
+	],
+	"synced": false
+}

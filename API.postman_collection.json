@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "40acedba-e415-4d90-96cf-ee46303caa0b",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "e621af66-aa64-4480-90a4-e64be623884e",
+			"name": "http://www.omdbapi.com/?i=tt3501632&apikey=a795a8a",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0a2cb922-c5e7-4ba5-bc88-d56e5db66ba0",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test('Some test name', function () {",
+							"\tpm.response.to.have.status(200);",
+							"\tpm.expect(pm.response.responseTime).to.be.below(400);",
+							"})"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.omdbapi.com/?i=tt3501632&apikey=a795a8a",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "tt3501632"
+						},
+						{
+							"key": "apikey",
+							"value": "a795a8a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "dc33486c-b88c-4406-b108-a2a38684a0c2",
+			"name": "http://www.omdbapi.com/?start=2018/08/01&i=tt3501632&apikey=a795a8a",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a99267aa-4b08-46fa-b604-bb35b72ffcb7",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([201,202]);",
+							"});",
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([401,402]);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Thor: Ragnarok\");",
+							"});",
+							"",
+							"pm.test(\"Body is correct\", function () {",
+							"    pm.response.to.have.body(\"Thor is imprisoned on the planet Sakaar\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.omdbapi.com/?start=2018/08/01&i=tt3501632&apikey=a795a8a",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2018/08/01"
+						},
+						{
+							"key": "i",
+							"value": "tt3501632"
+						},
+						{
+							"key": "apikey",
+							"value": "a795a8a"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
