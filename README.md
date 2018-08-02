@@ -40,7 +40,7 @@ Any functionality that can be tested for any failure before putting any applicat
 
 In a CI environment, automated tests should in theory be run after the full product is build but it will be good to do test on a phase to phase bases ot to loose track of the code and make it easier for the developer to see where the error is in the code.<br>
 
-**3. What type of testing is at an API level?
+**3. What type of testing is at an API level?**
 
 At its most basic level, API testing is intended to reveal bugs: inconsistencies or deviations from the expected behavior. Continuous testing is also very important to make sure it continues to work when the public has access to it. The risk of putting a bad, and potentially insecure, product on the market is greater than the cost to test it.<br>
 
