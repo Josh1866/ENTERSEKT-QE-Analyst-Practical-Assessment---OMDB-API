@@ -7,7 +7,7 @@ Practical Exercise
 
 To run, Install the Python Requests library: ***pip install requests***
 
-3.1. See file on repository: IMDB_GETID.py
+3.1. See file on repository: [[IMDB_GETID.py]]
 
 3.2. See images under folder ..
 
